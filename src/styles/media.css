@@ -12,7 +12,7 @@
 	.left-side-bar{left: -251px;}
 	.left-side-bar:before{display: block; opacity: 0; visibility: hidden;}
 	.left-side-bar.open:before{opacity: 1; visibility: visible; display: none;}
-	.header-right .brand-logo{display: block;}
+	.header-right .brand-logo{display: table;}
 	.header-right .menu-icon{display: block;}
 	.footer-wrap{width: 100%;}
 }
@@ -22,6 +22,7 @@
 	.device-usage-chart .width-50-p{width: 100%;}
 }
 @media (max-width: 767px){
+	/*.main-container{height: auto;}*/
 	.pre-loader{background-size: 43%;}
 	.xs-pd-20-10{padding: 20px 10px;}
 	.xs-mb-20{margin-bottom: 20px;}
